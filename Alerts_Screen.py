@@ -35,9 +35,9 @@ def main_alerts():
             logger.error(api_accounts_response.status_code, "Failed!")
 
         # Get all alert rules
-        payload = {"Accounts": [], "Types": []}
+        data = {"Accounts": [], "Types": []}
         url = 'https://successxpert.netformx.com/alerts/api/v1/rules/get-rules'
-        api_rules_response = s.post(url, params=payload)
+        api_rules_response = s.post(url, json=data)
         if api_rules_response.status_code == 200:
             logger.info(api_rules_response.text)
         else:

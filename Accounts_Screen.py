@@ -73,10 +73,9 @@ def main_accounts():
 
         # get alerts for specific account
         for item in accounts_data:
-            payload = {"Accounts": item['id'], "Types": [], "Count": 5}
-            url = 'https://successxpert.netformx.com/alerts/api/v1/logs/get-alerts'  # 400 {"errors":{"Accounts":[
-            # "Error converting value \account_id\" to type 'System.Collections.Generic.IEnumerable`1[System.String]'
-            api_alerts_response = s.post(url, params=payload)
+            data = {"Accounts": [item['id']], "Types": [], "Count": 5}
+            url = 'https://successxpert.netformx.com/alerts/api/v1/logs/get-alerts'
+            api_alerts_response = s.post(url, json=data)
             logger.info(api_alerts_response.text)
 
 
