@@ -5,7 +5,7 @@ from time import gmtime, strftime
 from requests.auth import HTTPBasicAuth
 import requests
 
-# test cases: get all interaction, get interactions by type, get interactions by account
+# test cases: get health score configuration screen by account, edit health score configuration for specific account
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.DEBUG,  # If smth wrong, change to 'DEBUG'

@@ -5,7 +5,8 @@ from time import gmtime, strftime
 from requests.auth import HTTPBasicAuth
 import requests
 
-# test cases: get all interaction, get interactions by type, get interactions by account
+# test cases: get playbooks by created by, create custom playbook, edit created custom playbook, delete created
+# custom playbook
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.DEBUG,  # If smth wrong, change to 'DEBUG'

@@ -5,7 +5,7 @@ import datetime
 import urllib3
 from time import gmtime, strftime, sleep, time
 
-# test cases: create new alert rule, create alert from a rule, edit rule, delete rule
+# test cases: Get all alert rules, # Get alert rules by type
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.DEBUG,  # If smth wrong, change to 'DEBUG'
