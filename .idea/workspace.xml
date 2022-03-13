@@ -281,11 +281,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Configuration_Playbooks" />
-      <item itemvalue="Python.Configuration_HealthScore" />
-      <item itemvalue="Python.Alerts_Screen" />
       <item itemvalue="Python.Accounts_Screen" />
       <item itemvalue="Python.Alerts_CRUD" />
+      <item itemvalue="Python.Alerts_Screen" />
+      <item itemvalue="Python.Configuration_HealthScore" />
+      <item itemvalue="Python.Configuration_Playbooks" />
       <item itemvalue="Python.Dashboard" />
       <item itemvalue="Python.Interactions_CRUD" />
       <item itemvalue="Python.Interactions_Screen" />
@@ -404,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647154538519</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="changes">
+      <created>1647158719908</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647158719908</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -418,7 +425,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="CSM28222" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
